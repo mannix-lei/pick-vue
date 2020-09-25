@@ -1,0 +1,21 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "indent": [true, "spaces", 4],
+        "quotemark": [true, "single", "avoid-escape", "avoid-template"],
+        "prefer-for-of": true,
+        "promise-function-async": true,
+        "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+        "allowJs": true,
+        "strict": true,
+        "checkJs": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    },
+    "rulesDirectory": []
+}
